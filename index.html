@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <title>Ngajiku</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family:sans-serif;text-align:center;padding:40px">
+
+<body>
   <h1>Ngajiku</h1>
-  <p>Aplikasi belajar membaca Al-Qur’an</p>
+  <p id="subtitle">Belajar membaca Al-Qur’an</p>
+
+  <div id="language">
+    <button onclick="setLang('id')">Indonesia</button>
+    <button onclick="setLang('ar')">عربي</button>
+  </div>
+
+  <div id="huruf"></div>
+
+  <script src="app.js"></script>
 </body>
 </html>
