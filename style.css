@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+button {
+  font-size: 20px;
+  padding: 12px 18px;
+  margin: 6px;
+  border: none;
+  border-radius: 8px;
+  background: #4CAF50;
+  color: white;
+}
+
+#huruf button {
+  font-size: 36px;
+  width: 64px;
+  height: 64px;
+  background: #2196F3;
+}
